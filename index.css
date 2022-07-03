@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d3d3d3;
+}
+
+main {
+  width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.comment-section {
+  background-color: #fff;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.title-img {
+  width: 48px;
+}
+
+.likes{ 
+  display: flex;
+  align-items: center;
+  background-color: #f3f3f3;
+  padding: 6px;
+  border-radius: 6px;
+}
+
+.reply {
+    display: flex;
+}
+
+.comment-footer {
+    display: flex;
+    justify-content: space-between;
+}
